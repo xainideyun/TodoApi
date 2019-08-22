@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TodoApi.Common\TodoApi.Common.csproj" />
+    <ProjectReference Include="..\TodoApi.Models\TodoApi.Models.csproj" />
+    <ProjectReference Include="..\TodoApi.IRepository\TodoApi.IRepository.csproj" />
+    <ProjectReference Include="..\TodoApi.MySqlRepository\TodoApi.MySqlRepository.csproj" />
+  </ItemGroup>
+</Project>
